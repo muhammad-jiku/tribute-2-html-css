@@ -1,0 +1,119 @@
+.website-box{
+    padding: 10px;
+}
+
+.section-header{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Pushster', cursive;
+}
+
+.section-main{
+    display: flex;
+}
+
+.section-left{
+    width: 50%;
+}
+
+.section-left-header{
+    color: #ECECEC;
+    font-size: 40px;
+    text-align: center;
+}
+
+.section-left-para{
+    padding: -10px 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.section-left-para > hr{
+    border: 1px solid #CCCCCC;
+}
+
+.section-left-para-box{
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.section-left-para-box-title{
+    width: 25%;
+    text-align: center;
+    font-weight: 1200;
+}
+
+
+.section-left-para-box-desc{
+    width: 75%;
+    /* height: 70px; */
+    text-align: justify;
+    background-color: #F9F9F9;
+    padding: 0 10px;
+}
+
+
+
+
+.section-right{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center ;
+    position: relative;
+    top: 80px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.section-left-details-header{
+    /* font-weight: 900; */
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-20%);
+} 
+
+.section-left-details > img{
+    height: 225px;
+    border: 1px solid black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+}
+
+.section-left-details-main{
+    display: flex;
+    margin: 0 auto;
+    /* position: relative; */
+    /* left: -20%; */
+}
+
+.section-left-details-main-left{
+    width: 25%;
+    text-align: center;
+    /* font-weight: bold; */
+    padding: 5px;
+}
+
+.section-left-details-main-right{
+    width: 75%;
+    text-align: center;
+    background-color: #F9F9F9;
+    padding: 0 5px;
+}
+
+.section-left-details-main-right > ul > li{
+    list-style-type: none;
+}
+
+.section-left-details-main-right > hr{
+    border: 1px solid #CCCCCC;
+}
+
+.section-footer{
+    background-color: #ECECEC;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px 0; 
+    font-family: 'Pushster', cursive;
+}
